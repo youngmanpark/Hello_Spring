@@ -9,4 +9,4 @@ spring 연습입니다.
 또한 할인정책 DiscountPolicy 를 유동적으로 바꿀 수 있게 AppConfig 를 만들어 주어 구현코드를 건들지 않고 변경가능하게 만들었습니다.
 
 -2022.08.05
-  기존의 AppConfig 를 Spring 을 통하여 DI 를 해줄 수 있게 Bean 을 등록해주었습니다.
+  기존의 AppConfig 를 Spring 을 통하여 DI 를 해줄 수 있게 Bean 을 등록해 주었습니다.
