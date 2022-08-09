@@ -10,3 +10,6 @@ spring 연습입니다.
 
 -2022.08.05
   기존의 AppConfig 를 Spring 을 통하여 DI 를 해줄 수 있게 Bean 을 등록해 주었습니다.
+
+-2022.08.09
+  AppConfig 를 통한 bean 등록이 아닌 직접 xml 파일로 BeanDefinition 을 생성해서 컨테이너에 등록도 해주었습니다.
