@@ -13,3 +13,7 @@ spring 연습입니다.
 
 -2022.08.09
   AppConfig 를 통한 bean 등록이 아닌 직접 xml 파일로 BeanDefinition 을 생성해서 컨테이너에 등록도 해주었습니다.
+
+-2022.08.10
+  SingleTone Pattern 을 지키기 위해서 Spring 이 자동적으로 Bean 을 관리해주고 객체 호출시 한번만 생성하고 생성했던 객체를 호출시 같은 객체를 반환해주도록 한다.  
+ @Configuration 이 그 역할을 해준다.
