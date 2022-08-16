@@ -6,8 +6,9 @@ import org.springframework.stereotype.Component;
 import java.util.HashMap;
 import java.util.Map;
 @Primary
-@Component //memoryMemberRepository
-public class  MemoryMemberRepository implements MemberRepository{
+
+@Component
+public class  MemoryMemberRepository implements MemberRepository {
     private static Map<Long, Member> store = new HashMap<>();
 
     @Override
