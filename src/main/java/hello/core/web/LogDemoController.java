@@ -18,7 +18,7 @@ public class LogDemoController {
     @ResponseBody
     public String logDemo(HttpServletRequest request)throws InterruptedException{
 
-        String requestURL=request.getRequestURI().toString();
+        String requestURL=request.getRequestURL().toString();
         System.out.println("myLogger = " + myLogger.getClass());
 
         myLogger.setRequestURL(requestURL);
